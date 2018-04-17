@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-copy-code/styles.css">
+  <script src="//unpkg.com/docsify-copy-code/index.js"></script>
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'MapGIS Client 帮助文档',
+      coverpage: true,
+      homepage: 'home.md',
+      loadSidebar: true, //如果存在_sidebar.md则加载该目录
+      // loadSidebar: 'summary.md'//否则记载下面的目录
+      subMaxLevel: 2,
+      loadNavbar: true,
+      // 完整配置参数
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', //[], // or 'auto'
+        // 支持本地化
+        placeholder: {
+          '/': '搜索'
+        },
+        // 支持本地化
+        noData: {
+          '/': '找不到结果'
+        },
+        // 搜索标题的最大程级, 1 - 6
+        depth: 2
+      },
+      ga: 'UA-XXXXX-Y'
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+
+</body>
+</html>
