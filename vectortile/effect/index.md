@@ -97,8 +97,9 @@
 
 !> MapBox的标准定义,也是OGC的官方标准, 我们`中地数码`的规则是`内圈永远是空心`的区.
 
-*示例说明*，左边是mapbox, 右边是openlayers
-![](../img/geom/error-1.png) ![](../img/geom/error-2.png)
+*示例说明*，左边是`mapbox`, 右边是`openlayers`
+
+![Mapbox](../img/geom/error-1.jpg) ![Openlayers](../img/geom/error-2.jpg)
 
 
 
